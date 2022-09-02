@@ -3,7 +3,8 @@ import 'pages/newhomepage.dart';
 
 void main() => runApp(
       const MaterialApp(
-        title: "Manan Koyawala",
+        debugShowCheckedModeBanner: false,
+        title: "HTTP API Testing",
         home: NewHomePage(),
       ),
     );

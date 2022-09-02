@@ -27,7 +27,9 @@ class _NewHomePageState extends State<NewHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text("Http Api"),
+      ),
       body: _userModel == null || _userModel!.isEmpty
           ? const Center(
               child: CircularProgressIndicator(),
